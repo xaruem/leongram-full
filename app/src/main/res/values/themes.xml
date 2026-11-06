@@ -1,0 +1,19 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.DeviceDefault">
+        <item name="android:windowBackground">#FF0B0B0F</item>
+        <item name="android:colorBackground">#FF0B0B0F</item>
+        <item name="android:statusBarColor">#FF0B0B0F</item>
+        <item name="android:navigationBarColor">#FF0B0B0F</item>
+        <item name="android:colorAccent">#FFE1306C</item>
+        <item name="android:colorControlActivated">#FFE1306C</item>
+        <item name="android:actionBarStyle">@style/AppActionBar</item>
+        <item name="android:alertDialogTheme">@style/AppDialog</item>
+    </style>
+    <style name="AppActionBar" parent="android:Widget.DeviceDefault.ActionBar">
+        <item name="android:background">#FF0B0B0F</item>
+    </style>
+    <style name="AppDialog" parent="android:Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:colorAccent">#FFE1306C</item>
+    </style>
+</resources>
